@@ -1047,13 +1047,32 @@ input[type='checkbox'] {
 /*     Audience     */
 /********************/
 .split .area-1 {
-	height: 27rem;
+  height: 54rem; /*nuevo/*
+	/*height: 27rem;*/
 	/*background: url('../images/audience.jpg') center left no-repeat;*/
   background: url('../images/pintora1.bridget.jpg') center left no-repeat;
 	background-size: cover;
 }
 
 .split .area-2 {
+	padding-top: 6.5rem;
+	padding-bottom: 7rem;
+	background-color: #fc5d66;
+}
+
+.split .area-3 {
+	height: 27rem;
+  background: url('../images/pintora2.vera.jpg') center right no-repeat;
+	background-size: cover;
+}
+
+.split .area-3-1 {
+	height: 27rem;
+  background: url('../images/pintora2.vera2.jpg') center right no-repeat;
+	background-size: cover;
+}
+
+.split .area-4 {
 	padding-top: 6.5rem;
 	padding-bottom: 7rem;
 	background-color: #fc5d66;
@@ -1921,7 +1940,7 @@ a:hover.back-to-top {
 		width: 50%;
 		height: 100%;
 		display: inline-block;
-		padding-bottom: 0;
+    padding-bottom: 0;
 		vertical-align: top;
 	}
 
@@ -1929,6 +1948,31 @@ a:hover.back-to-top {
 		margin-right: 2rem;
 		margin-left: 2rem;
 	}
+
+  .split .area-3 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .split .area-3-1 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+  }
+
+  .split .area-4 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding-bottom: 0;
+    vertical-align: top;
+  }
+
+  .split .area-4 .text-container {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 	/* end of audience */
 
 
@@ -2116,6 +2160,12 @@ a:hover.back-to-top {
 	}
 
 	.split .area-2 .text-container {
+		margin-right: 0;
+		margin-left: 4rem;
+		max-width: 30rem;
+	}
+
+  .split .area-4 .text-container {
 		margin-right: 0;
 		margin-left: 4rem;
 		max-width: 30rem;
